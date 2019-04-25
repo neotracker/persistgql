@@ -1,8 +1,11 @@
 {
   "name": "@neotracker/persistgql",
-  "version": "0.0.0",
+  "version": "0.2.0",
   "author": "Alex DiCarlo @dicarlo2",
   "bugs": "https://github.com/neotracker/persistgql/issues",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@types/graphql": "^14.0.3",
     "apollo": "^2.1.3",
@@ -26,14 +29,22 @@
   "engines": {
     "node": ">=8.0.0"
   },
-  "files": ["/lib", "/oclif.manifest.json", "/yarn.lock"],
+  "files": [
+    "/lib",
+    "/oclif.manifest.json",
+    "/yarn.lock"
+  ],
   "homepage": "https://github.com/neotracker/persistgql",
-  "keywords": ["oclif-plugin"],
+  "keywords": [
+    "oclif-plugin"
+  ],
   "license": "MIT",
   "oclif": {
     "commands": "./lib/commands",
     "bin": "oclif-example",
-    "devPlugins": ["@oclif/plugin-help"]
+    "devPlugins": [
+      "@oclif/plugin-help"
+    ]
   },
   "repository": "neotracker/persistgql",
   "scripts": {

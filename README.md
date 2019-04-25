@@ -20,7 +20,7 @@ $ npm install -g @neotracker/persistgql
 $ oclif-example COMMAND
 running command...
 $ oclif-example (-v|--version|version)
-@neotracker/persistgql/0.0.0 darwin-x64 node-v10.13.0
+@neotracker/persistgql/0.2.0 darwin-x64 node-v11.10.1
 $ oclif-example --help [COMMAND]
 USAGE
   $ oclif-example COMMAND
@@ -66,5 +66,5 @@ OPTIONS
   --queries=queries                      Deprecated in favor of the includes flag
 ```
 
-_See code: [src/commands/persistgql.ts](https://github.com/neotracker/persistgql/blob/v0.0.0/src/commands/persistgql.ts)_
+_See code: [src/commands/persistgql.ts](https://github.com/neotracker/persistgql/blob/v0.2.0/src/commands/persistgql.ts)_
 <!-- commandsstop -->
